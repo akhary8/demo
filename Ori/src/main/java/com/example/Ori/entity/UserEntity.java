@@ -5,7 +5,7 @@ public class UserEntity {
 	
 	private int id;
 	private String Name;
-	private String College;
+	private String Collegename;
 	public int getId() {
 		return id;
 	}
@@ -18,11 +18,11 @@ public class UserEntity {
 	public void setName(String name) {
 		Name = name;
 	}
-	public String getCollege() {
-		return College;
+	public String getCollegename() {
+		return Collegename;
 	}
-	public void setCollege(String college) {
-		College = college;
+	public void setCollegename(String collegename) {
+		Collegename = collegename;
 	}
 	
 
